@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')
+
+body
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-size: 14px
+  line-height: 16px
+  display: block
+  font-family: "Quicksand", sans-serif
+  > div
+    display: block
+    min-width: 100%
+    max-width: 1500px
+    margin: 0 auto
+    > h1
+      font-family: "Audiowide", sans-serif
+      text-align: center
+      margin: 30px 20px 40px
+      font-weight: 500
+      font-size: 45px
+      code
+        color: red
+  .wrapper
+    display: grid
+    grid-template-columns: 1fr 2fr
+    padding: 0 20px
+    > div
+      display: flex
+      flex-direction: column
+      textarea
+        min-height: 200px
+        padding: 20px
+        margin-bottom:20px
+        border-radius: 10px
+        flex-grow: 1
+        resize: none
+    .output
+      margin-left: 50px
+      margin-bottom: 20px
+      overflow: hidden auto
+      margin-top: 50px
+      b
+        font-weight: bolder
+      h1, h2
+        margin: 20px 0 10px
+      h3, h4
+        margin: 15px 0 5px
+      h1
+        font-size: 40px
+        line-height: 40px
+      h2
+        font-size: 35px
+        line-height: 35px
+      h3
+        font-size: 25px
+        line-height: 25px
+      h4
+        font-size: 20px
+        line-height: 20px
+      p
+        font-size: 14px
+        margin: 10px 0 15px
+      span
+        line-height:15px
+      img
+        display: block
+        padding: 20px
+        max-width: 100%
+        max-height: 100%
+        text-align: center
+      blockquote
+        background: #eee
+        margin-left: 20px
+        padding: 40px
+        border-left: 2px solid #555
+      pre
+        border: 1px dashed #999
+        border-radius: 20px
+        padding: 20px 30px 40px
+        margin: 10px
+        line-height: 10px
+        code
+          line-height:25px
+      ol,ul 
+        font-size:14px
+        padding-left:20px
+        line-height:40px
+        font-weight:600
+        li
+          line-height:25px
+          padding-left:2px
+          font-weight:400
+      table
+        border: 1px solid #999
+        border-radius: 8px
+        padding: 10px
+        border-spacing:0
+        tr:first-child th
+          font-weight:600
+        tr:last-child th
+          border-bottom-width: 1px
+        th
+          padding: 5px 10px
+          border: 1px solid #eee
+          border-width: 1px 1px 0 0
+          font-weight: 400
+          &:first-child
+            border-left-width: 1px
